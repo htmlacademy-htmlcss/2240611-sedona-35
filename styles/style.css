@@ -62,7 +62,8 @@ body {
 }
 
 .navigation-item {
-
+  display:inline;
+  padding:0 16px
 }
 
 .navigation-link {
@@ -71,4 +72,17 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+}
+
+li{
+  list-style-type: none
+}
+
+.menu{
+
+}
+
+.menu-item {
+  display:inline;
+  padding:0 16px
 }
