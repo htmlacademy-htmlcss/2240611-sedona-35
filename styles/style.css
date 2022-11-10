@@ -183,9 +183,7 @@ li {
 }
 
 
-.advantages {
-
-}
+.advantages {}
 
 
 .advatages-list {
@@ -194,6 +192,26 @@ li {
   display: flex;
 }
 
+.advantages-wrap {
+  width: 230px;
+  height: 181px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
+  gap: 22px;
+  left: 85px;
+  top: 92px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+}
 
 .advatages-item {
   width: 400px;
@@ -261,41 +279,70 @@ li {
   padding: 0;
 }
 
+.description-wrap {
+  width: 230px;
+  height: 160px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 85px;
+  gap: 30px;
+  left: 85px;
+  top: 92px;
+}
+
 .description-name {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  height: 56px;
+}
+
+.description-line {
+  background: rgba(0, 0, 0, 0.3);
+  width: 60px;
+  height: 2px;
+  border: none;
   margin: 0;
   padding: 0;
 }
 
+.description-block {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
 
 ul {
   margin: 0;
   padding: 0;
 }
 
-.description-road {
-  width: 400px;
-  height: 384px;
-  background: rgb(131, 179, 211, 0.3) ;
-  margin: 0;
-  padding: 0;
-}
-
-
-.road {
-  margin: 0;
-  padding: 0;
-}
-
-.road-block {
-
-}
-
-.description-block {
-
-}
 
 .about-decription {
   margin: 0;
   padding: 0;
-  display: inline;
+}
+
+.description-list {
+  display: flex;
 }
