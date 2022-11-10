@@ -279,6 +279,10 @@ li {
   padding: 0;
 }
 
+.description-road {
+  background: rgba(131, 179, 211, 0.2);
+}
+
 .description-wrap {
   width: 230px;
   height: 160px;
@@ -343,6 +347,17 @@ ul {
   padding: 0;
 }
 
+
 .description-list {
   display: flex;
+}
+
+.bridge {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.bridge-image {
+
 }
