@@ -508,3 +508,153 @@ ul {
   height: 214px;
   margin: auto;
 }
+
+.subscribe {
+  width: 1200px;
+  height: 414.86px;
+  background: url(../images/sreenivas.png);
+  background-size: 1200px 780px;
+  background-color: rgba(3, 154, 255, 0.255);
+  background-blend-mode: multiply;
+  margin: 0;
+  padding: 0;
+}
+
+.description-subscribe {
+  width: 475px;
+  height: 109px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 96px;
+}
+
+
+.subscribe-title {
+  height: 36.35px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+
+.subscribe-text {
+  width: 475px;
+  height: 52.51px;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+
+.subscribe-form {
+  margin-top: 54px;
+  display: flex;
+  background: #F2F2F2;
+  border-radius: 4px 4px 4px 4px;
+}
+
+
+.subscribe-input {
+  width: 100%;
+  height: 52px;
+  font-family: 'PT Sans';
+  font-weight: 400px;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  color: #000000;
+  opacity: 0.6;
+  border: 0;
+  box-sizing: border-box;
+  resize: vertical;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.subscribe-submit {
+  width: 353px;
+  height: 52px;
+  gap: 10px;
+  background: #82B3D3;
+  border-radius: 0px 4px 4px 0px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.subscribe-item {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.general-section {
+  width: 684px;
+  height: 215px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+}
+
+.contacts {
+  width: 1200px;
+  height: 120px;
+  align-items: center;
+  /* justify-content: space-between; */
+  display: flex;
+  margin: 0;
+}
+
+.description-contacts {
+  display: flex;
+  width: 1060px;
+  height: 50px;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.contacts-socials {
+  display: flex;
+  gap: 27px;
+}
+
+.socials-item {
+
+}
+
+.socials-link {}
+
+.contacts-phone {
+  text-decoration: none;
+  color: #000000;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts-logo {
+
+}
