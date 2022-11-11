@@ -446,10 +446,11 @@ ul {
 .hotel-search {
   width: 1200px;
   height: 406px;
+  display: flex;
+  text-align: center;
 }
 
 .interested {
-  width: 297px;
   height: 36px;
   font-family: 'PT Sans';
   font-style: normal;
@@ -458,6 +459,8 @@ ul {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .interested-item {
@@ -470,36 +473,38 @@ ul {
   line-height: 26px;
   text-align: center;
   color: #333333;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
 }
 
 .hotel-menu {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8px 50px;
-  gap: 10px;
-  width: 376px;
+  width: 326px;
   height: 52px;
-  left: calc(50% - 376px/2);
-  top: calc(50% - 52px/2 + 81px);
   background: #756157;
   border-radius: 4px;
   text-decoration: none;
+  margin: auto;
+  margin-top: 54px;
 }
 
 .hotel-interested {
-  width: 276px;
-  height: 36px;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
+  margin: 0;
+}
 
+
+.hotel-item {
+  width: 592px;
+  height: 214px;
+  margin: auto;
 }
