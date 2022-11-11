@@ -361,3 +361,17 @@ ul {
 .bridge-image {
 
 }
+
+.advatages-sublist {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.sublist-item {
+  width: 400px;
+  height: 384px;
+  background: rgba(131, 179, 211, 0.12);
+  margin: 0;
+  padding: 0 ;
+}
